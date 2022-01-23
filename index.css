@@ -1,0 +1,44 @@
+
+#intro {
+    color: black;
+}
+div {
+    display: block;
+    border:1px solid#000;
+    background-color: rosybrown;
+}
+h1.center {
+    text-align: center;
+    color: rgb(85, 7, 85);
+    font-size: 50pt;
+    text-shadow: 6px 3px 5px grey;
+    font-family: Helvetica, Arial, sans-serif;
+}
+p.cursive {
+    font-family: Florence, cursive;
+}
+a.italic {
+    font-style: italic;
+}
+h2.monospace {
+    font-family: "Courier New", Courier, monospace;
+}
+ul.monospace {
+    font-family: "Courier New", Courier, monospace;
+}
+h3.tabla1 {
+    text-align: center;
+    font-style: italic;
+}
+
+
+.fondoM {
+    width: 150px;
+    color: black;
+    background-color:rgb(42, 110, 173);
+}
+.fondoF {
+    width: 150px;
+    color:black;
+    background-color:rgb(56, 95, 167)
+}
