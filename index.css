@@ -2,16 +2,23 @@
 #intro {
     color: black;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #1650bb, #9f1bb1da);
+}
 div {
     display: block;
     border:1px solid#000;
-    background-color: rosybrown;
+    background-color: rgb(206, 87, 206);
 }
+
 h1.center {
     text-align: center;
     color: rgb(85, 7, 85);
     font-size: 50pt;
-    text-shadow: 6px 3px 5px grey;
+    text-shadow: 6px 3px 5px rgb(35, 7, 46);
     font-family: Helvetica, Arial, sans-serif;
 }
 p.cursive {
@@ -19,10 +26,19 @@ p.cursive {
 }
 a.italic {
     font-style: italic;
+    color: black;
 }
+/*estilo de letras de y skills*/
 h2.monospace {
     font-family: "Courier New", Courier, monospace;
 }
+
+h2.letras {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+}
+
 ul.monospace {
     font-family: "Courier New", Courier, monospace;
 }
