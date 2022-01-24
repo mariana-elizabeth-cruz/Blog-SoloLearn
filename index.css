@@ -6,14 +6,14 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #1650bb, #9f1bb1da);
+    background: linear-gradient(to right, #134092, #b11cc5da);
 }
-div {
+/*div {
     display: block;
     border:1px solid#000;
     background-color: rgb(206, 87, 206);
 }
-
+*/
 h1.center {
     text-align: center;
     color: rgb(85, 7, 85);
@@ -37,6 +37,9 @@ h2.letras {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     text-align: center;
+}
+p.letras2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 ul.monospace {
