@@ -6,7 +6,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right, #134092, #b11cc5da);
+    background: linear-gradient(to right, #0f4fc7, #d615bcda);
 }
 /*div {
     display: block;
@@ -17,7 +17,7 @@ body {
 h1.center {
     text-align: center;
     color: rgb(85, 7, 85);
-    font-size: 50pt;
+    font-size: 70pt;
     text-shadow: 6px 3px 5px rgb(35, 7, 46);
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -28,18 +28,41 @@ a.italic {
     font-style: italic;
     color: black;
 }
-/*estilo de letras de y skills*/
+/*estilo de letras de skills*/
 h2.monospace {
     font-family: "Courier New", Courier, monospace;
 }
 
 h2.letras {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: large;
     text-align: center;
 }
 p.letras2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a.calcu {
+    font-style: italic;
+    color: black;
+}
+/*diseño de boton*/
+.diseño-b {
+    display: grid;
+    justify-content: center;
+    align-content:center;     
+}
+h3.bot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.diseño-b > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+}
+.diseño-b > button:hover{
+    background-color: rgba(106, 24, 160, 0.9);
 }
 
 ul.monospace {
