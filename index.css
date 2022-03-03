@@ -1,29 +1,37 @@
 
 #intro {
-    color: black;
+    border-radius: 100px 100px 100px 100px;
+    border: solid 2px;
+    padding: 40px;
+    margin: 50px 40px 40px 40px;
+    text-align: center;    
+    
 }
 
 body {
     padding: 0;
-    margin: 0;
-    background: linear-gradient(to right, #0f4fc7, #d615bcda);
+    margin: 20px;
+    background: linear-gradient(240deg, cadetBlue, lightSteelBlue);
+
 }
-/*div {
-    display: block;
-    border:1px solid#000;
-    background-color: rgb(206, 87, 206);
-}
-*/
-h1.center {
+/*about me*/
+h1.titulo {
     text-align: center;
-    color: rgb(85, 7, 85);
-    font-size: 70pt;
-    text-shadow: 6px 3px 5px rgb(35, 7, 46);
-    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(100, 6, 11);
+    font-size: 90pt;
+    text-shadow: 6px 3px 5px rgb(46, 7, 7);
+    font-family: 'Cabin Sketch', cursive;
 }
-p.cursive {
-    font-family: Florence, cursive;
+/*primer parrafo*/
+p.primerP {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    text-align: center;
 }
+.resaltarT {
+    background-color: rgb(194, 90, 90);
+}
+
 a.italic {
     font-style: italic;
     color: black;
