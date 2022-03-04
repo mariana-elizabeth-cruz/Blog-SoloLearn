@@ -32,13 +32,24 @@ p.primerP {
     background-color: rgb(104, 63, 156);
 }
 /*---------*/
-.imagen {
+/*solo learn*/
+div.imagen {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px;
+    padding: 40px;
+    background: linear-gradient(45deg, blue, rgb(65, 211, 65));
     text-align: center;
 }
+p.parrafoSL {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;   
+}
 a.linkSL {
-    font-style: italic;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
     color: black;
 }
+
 /*estilo de letras de skills*/
 h2.monospace {
     font-family: "Courier New", Courier, monospace;
