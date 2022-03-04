@@ -11,28 +11,31 @@
 body {
     padding: 0;
     margin: 20px;
-    background: linear-gradient(240deg, cadetBlue, lightSteelBlue);
+    background: linear-gradient(240deg, rgb(61, 132, 134), rgb(143, 188, 218));
 
 }
 /*about me*/
 h1.titulo {
     text-align: center;
     color: rgb(100, 6, 11);
-    font-size: 90pt;
+    font-size: 100pt;
     text-shadow: 6px 3px 5px rgb(46, 7, 7);
     font-family: 'Cabin Sketch', cursive;
 }
 /*primer parrafo*/
 p.primerP {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
     text-align: center;
 }
 .resaltarT {
-    background-color: rgb(194, 90, 90);
+    background-color: rgb(104, 63, 156);
 }
 /*---------*/
-a.italic {
+.imagen {
+    text-align: center;
+}
+a.linkSL {
     font-style: italic;
     color: black;
 }
