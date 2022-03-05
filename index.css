@@ -32,6 +32,17 @@ p.primerP {
     background-color: rgb(104, 63, 156);
 }
 /*---------*/
+/*grasshopper*/
+div.imgGH {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background: linear-gradient(rgb(77,0,153), rgb(255,153,204));
+    text-align: center;
+}
+
 /*solo learn*/
 div.imagen {
     border-radius: 15px 15px 15px 15px;
