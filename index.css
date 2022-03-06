@@ -73,25 +73,41 @@ a.linkSL {
 /*estilo de letras de skills*/
 .habil {
     border-radius: 10px 10px 10px 10px;
-    border: solid 2px rgb(201,201,181);
+    border: solid 2px rgb(105,1,1);
     padding: 20px 30px 20px 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-
+    height: 250px;
+    width: 200px;
 }
-h2.letrah2 {
+h2.letraH1 {
     font-family: 'Oooh Baby', cursive;
+    font-size: 35px;
 }
-
-h2.letras {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ul.lista1 {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+/*estilo para los elementos de Mis Proyectos*/
+.project {
+    border-radius: 100px 0 100px 0;
+    border: solid 2px black;
+    padding: 30px 40px 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2.letrasPro {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
     text-align: center;
 }
-p.letras2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+li.letrasList2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
 }
 a.calcu {
-    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
     color: black;
 }
 /*diseño de boton*/
@@ -101,23 +117,22 @@ a.calcu {
     align-content:center;     
 }
 h3.bot {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 .diseño-b > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 1px solid black;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
 }
 .diseño-b > button:hover{
-    background-color: rgba(106, 24, 160, 0.9);
+    background-color: rgb(104,40,96);
 }
 
-ul.monospace {
-    font-family: "Courier New", Courier, monospace;
-}
+
 h3.tabla1 {
     text-align: center;
     font-style: italic;
