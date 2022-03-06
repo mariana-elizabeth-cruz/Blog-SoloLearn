@@ -57,7 +57,7 @@ div.imagen {
     border-radius: 15px 15px 15px 15px;
     border: solid 2px;
     padding: 40px;
-    background: linear-gradient(45deg, rgb(7, 7, 150), rgb(65, 211, 65));
+    background: linear-gradient(45deg, rgb(196,49,19), rgb(9,108,133));
     text-align: center;
 }
 p.parrafoSL {
@@ -71,8 +71,16 @@ a.linkSL {
 }
 
 /*estilo de letras de skills*/
-h2.monospace {
-    font-family: "Courier New", Courier, monospace;
+.habil {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px rgb(201,201,181);
+    padding: 20px 30px 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+h2.letrah2 {
+    font-family: 'Oooh Baby', cursive;
 }
 
 h2.letras {
