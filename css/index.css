@@ -11,31 +11,65 @@
 body {
     padding: 0;
     margin: 20px;
-    background: linear-gradient(240deg, cadetBlue, lightSteelBlue);
+    background: linear-gradient(240deg, rgb(61, 132, 134), rgb(143, 188, 218));
 
 }
 /*about me*/
 h1.titulo {
     text-align: center;
     color: rgb(100, 6, 11);
-    font-size: 90pt;
+    font-size: 100pt;
     text-shadow: 6px 3px 5px rgb(46, 7, 7);
     font-family: 'Cabin Sketch', cursive;
 }
 /*primer parrafo*/
 p.primerP {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 35px;
     text-align: center;
 }
 .resaltarT {
-    background-color: rgb(194, 90, 90);
+    background-color: rgb(104, 63, 156);
 }
 /*---------*/
-a.italic {
-    font-style: italic;
+/*grasshopper*/
+div.imgGH {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px;
+    padding: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    background: linear-gradient( rgb(255,153,204), rgb(0.60,0.20,0.40), rgb(78, 16, 141));
+    text-align: center;
+}
+p.parrafoGH {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+a.linkGH {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+    color: rgb(190, 189, 189);
+}
+
+/*solo learn*/
+div.imagen {
+    border-radius: 15px 15px 15px 15px;
+    border: solid 2px;
+    padding: 40px;
+    background: linear-gradient(45deg, rgb(7, 7, 150), rgb(65, 211, 65));
+    text-align: center;
+}
+p.parrafoSL {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;   
+}
+a.linkSL {
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
     color: black;
 }
+
 /*estilo de letras de skills*/
 h2.monospace {
     font-family: "Courier New", Courier, monospace;
