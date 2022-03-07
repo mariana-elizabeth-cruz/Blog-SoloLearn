@@ -70,15 +70,19 @@ a.linkSL {
     color: black;
 }
 
-/*estilo de letras de skills*/
+/*estilo para las skills*/
 .habil {
     border-radius: 10px 10px 10px 10px;
     border: solid 2px rgb(105,1,1);
     padding: 20px 30px 20px 30px;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 250px;
-    width: 200px;
+    text-align: center;
+}
+/*centrar lista*/
+.habil ul {
+    text-align: left;
+    display: inline-block;
 }
 h2.letraH1 {
     font-family: 'Oooh Baby', cursive;
@@ -216,6 +220,36 @@ tbody tr.cuerpo:nth-child(odd) {
 /*even para celdas par*/
 tbody tr.cuerpo1:nth-child(even) {
     background-color: #9770a1;
+}
+/*estilo para formulario*/
+.formulario {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px black;
+    padding: 30px 40px 30px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+}
+table.formT {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #301934;
+}
+h4.textoC {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 30px;
+}
+tr.fondoTr {
+    background-color: rgb(90, 133, 71);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    border: solid 2px;
+}
+.cajaI {
+    border: solid 1px;
 }
 
 
