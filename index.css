@@ -145,53 +145,79 @@ h3.tabla1 {
     font-family: 'Nanum Brush Script', cursive;
     font-size: 45px;
 }
+/*selecciono la tabla de horarios*/
 table.cuadro {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid #301934;
 }
+/*estilo para el encabezado*/
 thead th:nth-child(1) {
     width: 30%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
 thead th:nth-child(2){
     width: 30%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
 thead th:nth-child(3){
     width: 30%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
 thead th:nth-child(4){
     width: 40%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
 thead th:nth-child(5){
     width: 40%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
 thead th:nth-child(6){
     width: 30%;
     font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
 }
+/*-------------------------*/
 th {
     letter-spacing: 5px;
 }
 td {
     letter-spacing: 1px;
 }
-tbody td {
+/*imagen para el encabezado*/
+thead {
+    background: url(estrellas.png);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    height: 80px;
+}
+/*texto del body*/
+tbody td.selected {
     text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    height: 30px;
+}
+/*borde del encabezado*/
+thead th {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid #5b3163;
+}
+/*color de fondo del body*/
+/*odd para celdas impar*/
+tbody tr.cuerpo:nth-child(odd) {
+    background-color: #B284BE;
+}
+/*even para celdas par*/
+tbody tr.cuerpo1:nth-child(even) {
+    background-color: #9770a1;
 }
 
-
-/*
-.cuadro {
-    font-family: 'Waiting for the Sunrise', cursive;
-    font-size: 20px;
-    padding: 20px;
-}*/
 
 .fondoM {
     width: 150px;
