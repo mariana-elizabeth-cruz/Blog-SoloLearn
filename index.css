@@ -251,15 +251,26 @@ tr.fondoTr {
 .cajaI {
     border: solid 1px;
 }
-
+/*div al lado del otro*/
+.dosDiv {
+    width: 200px;
+    width: 200px;
+    height: 150px;
+    border: solid 1px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
 
 .fondoM {
-    width: 150px;
+    margin: 10px;
+    width: 80px;
     color: black;
-    background-color:rgb(42, 110, 173);
+    
 }
 .fondoF {
-    width: 150px;
+    margin: 10px;
+    width: 80px;
     color:black;
-    background-color:rgb(56, 95, 167)
+   
 }
