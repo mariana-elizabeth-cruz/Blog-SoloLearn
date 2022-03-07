@@ -132,12 +132,66 @@ h3.bot {
     background-color: rgb(104,40,96);
 }
 
-
-h3.tabla1 {
+/*estilo para tablas*/
+.cajaT {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px black;
+    padding: 30px 40px 30px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
-    font-style: italic;
+}
+h3.tabla1 {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 45px;
+}
+table.cuadro {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+thead th:nth-child(1) {
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+thead th:nth-child(2){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+thead th:nth-child(3){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+thead th:nth-child(4){
+    width: 40%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+thead th:nth-child(5){
+    width: 40%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+thead th:nth-child(6){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+}
+th {
+    letter-spacing: 5px;
+}
+td {
+    letter-spacing: 1px;
+}
+tbody td {
+    text-align: center;
 }
 
+
+/*
+.cuadro {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 20px;
+    padding: 20px;
+}*/
 
 .fondoM {
     width: 150px;
