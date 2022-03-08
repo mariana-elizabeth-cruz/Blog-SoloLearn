@@ -23,7 +23,7 @@ h1.titulo {
     font-family: 'Cabin Sketch', cursive;
 }
 /*primer parrafo*/
-p.primerP {
+.primerP {
     font-family: 'Indie Flower', cursive;
     font-size: 35px;
     text-align: center;
@@ -33,7 +33,7 @@ p.primerP {
 }
 /*---------*/
 /*grasshopper*/
-div.imgGH {
+.imgGH {
     border-radius: 15px 15px 15px 15px;
     border: solid 2px;
     padding: 40px;
@@ -42,25 +42,23 @@ div.imgGH {
     background: linear-gradient( rgb(255,153,204), rgb(0.60,0.20,0.40), rgb(78, 16, 141));
     text-align: center;
 }
-p.parrafoGH {
+.parrafoGH {
     font-family: 'Kalam', cursive;
     font-size: 30px;
 }
 a.linkGH {
-    font-family: 'Kalam', cursive;
-    font-size: 30px;
     color: rgb(190, 189, 189);
 }
 
 /*solo learn*/
-div.imagen {
+.imagen {
     border-radius: 15px 15px 15px 15px;
     border: solid 2px;
     padding: 40px;
     background: linear-gradient(45deg, rgb(196,49,19), rgb(9,108,133));
     text-align: center;
 }
-p.parrafoSL {
+.parrafoSL {
     font-family: 'Kalam', cursive;
     font-size: 30px;   
 }
