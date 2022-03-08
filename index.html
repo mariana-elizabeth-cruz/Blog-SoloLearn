@@ -6,6 +6,7 @@
         <!-- end link bootstrap -->
         <link rel="stylesheet" href="css/index.css">
         <title>My first page</title>
+
         
     </head>
     <body>
@@ -41,136 +42,158 @@
         </div>
         
         <!--Habilidades-->
-        <h2 class="monospace"><span>My Skills</span></h2>
-        <ul class="monospace">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavasScript</li>
-        </ul>
-        <br>
+        <div class="habil">
+            <h2 class="letraH1">My Skills</h2>
+                <ul class="lista1">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavasScript</li>
+                </ul>
+        </div>
+        
         <!--Proyectos-->
-        <h2 class="letras"><em>Mis proyectos</em></h2>
-        <!--Nested list-->
-        <ul>
-            <li class="letras2">Este es el primer proyecto del curso de Udemy de <strong>Introduccion a JavaScript</strong>.
-                <ol>
-                    <li><a class="calcu" href="file:///C:/PROYECTOS%20EN%20VS/introProgJS/index.html">Calculadora!</a></li>
-                </ol>
-            </li>
-        </ul>
+        <div class="project">
+            <h2 class="letrasPro"><em>Mis proyectos</em></h2>
+            <!--Nested list-->
+            <ul>
+                <li class="letrasList2">Este es el primer proyecto del curso de Udemy de <strong>Introduccion a JavaScript</strong>.</li>
+                    <ol>
+                        <!-- falta redirigir a la pagina donde esta la calculadora -->
+                        <li><a class="calcu" href="file:///C:/PROYECTOS%20EN%20VS/introProgJS/index.html">Calculadora!</a></li>
+                        <li><h3 class="bot">Creación de boton </h3>
+                            <form class="diseño-b" action="">
+                                <button>BOTON DE PRUEBA</button>
+                            </form></li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
         
-        <br>
-        <h3 class="bot">Por favor presiona el boton!!!</h3>
-        <!--Aplicando etiqueta form y button-->
-        <form class="diseño-b" action="">
-             <button >HERE</button>
-        </form>
-        
-        
-
-        <br>
         <!--Horario-->
-        <h3 class="tabla1" class="italic"><span>My Coding Schedule</span></h3>
-        <!--Tablas-->
-        <table border="2" align="center">
-            <tr>
-                <th>Day</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thursday</th>
-                <th>Friday</th>
-            </tr>
-            <tr>
-                <td>15-16</td>
-                <td class="selected">Learn</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>16-17</td>
-                <td></td>
-                <td class="selected">Practice</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>17-18</td>
-                <td></td>
-                <td></td>
-                <td class="selected">Play</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>18-19</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="selected">Code</td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>19-20:30</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td class="selected">Discuss</td>
-            </tr>
-        </table>
-
-        <!--Formulario-->
-        <h4><span border="1">Contact Me</span></h4>
-        <form>
-            <table border="1">
-                <tr>
-                    <td>
-                        <p>Name</p>
-                        <input name="name" type="text" /><br />
-                    </td>
-                <tr/>
-                <tr>
-                    <td>
-                        <p>Email</p>
-                        <input name="email" type="text" /><br />
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p>Message</p>
-                        <textarea name="message"> </textarea>
-                        <imput type="submit" value="SEND" class="submit" />
-                        <br>
-                        <button>ENVIAR</button>
-                    </td>
-                </tr>
+        <div class="cajaT">
+            <h3 class="tabla1"><span>My Coding Schedule</span></h3>
+            <!--Tablas-->
+            <table class="cuadro" border="2" align="center">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="cuerpo">
+                        <td class="selected">15-16</td>
+                        <td class="selected">Learn</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="cuerpo1">
+                        <td class="selected">16-17</td>
+                        <td></td>
+                        <td class="selected">Practice</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="cuerpo">
+                        <td class="selected">17-18</td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Play</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="cuerpo1">
+                        <td class="selected">18-19</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Code</td>
+                        <td></td>
+                    </tr>
+                    <tr class="cuerpo">
+                        <td class="selected">19-20:30</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="selected">Discuss</td>
+                    </tr>
+                </tbody>
             </table>
+        </div>
+        
+        <!--Formulario-->
+        <div class="formulario">
+            <h4 class="textoC"><span border="1">Contact Me</span></h4>
+            <form>
+                <table class="formT" border="1">
+                    <tr class="fondoTr">
+                        <td>
+                            <p>Name</p>
+                            <input class="cajaI" name="name" type="text" /><br/>
+                        </td>
+                    <tr/>
+                    <tr class="fondoTr">
+                        <td>
+                            <p>Email</p>
+                            <input class="cajaI" name="email" type="text" /><br/>
+                        </td>
+                    </tr>
+                    <tr class="fondoTr">
+                        <td>
+                            <p>Message</p>
+                            <textarea name="message"></textarea>
+                            <imput type="submit" value="SEND" class="submit" />
+                            <br/>
+                            <br/>
+                            <button>ENVIAR</button>
+                        </td>
+                    </tr>
+                </table>
         </form>
-        <br />
+        </div>
+        
+        <br/>
         <!--Redes-->
-        <div class="section fondoM">
-            <h4><span>My Media</span></h4>
-            <a href="https://www.youtube.com/watch?v=AZHXsYlZLIs" target="_blank">VIDEO</a>
+        <div class="dosDiv">
+            <!-- faltan los iconos de los links -->
+            <div class="fondoM">
+                <h4><span>My Media</span></h4>
+                <!--<a href="https://www.youtube.com/channel/UCXiOyrjY_jqNCFoQTotILTw" target="_blank">VIDEO</a>-->
+                <a href="">
+                    <img src="https://www.youtube.com/channel/UCXiOyrjY_jqNCFoQTotILTw" >
+                </a>
+            </div>
+            <div class="fondoF">
+                <h4><span>Follow me</span></h4>
+                <!--  
+                <a href="https://twitter.com/sololearn?lang=es" target="blank">SoloLearn Twitter</a> -->
+                <a href="https://twitter.com/SoloLearn">
+                    <img src="https://SoloLearn/i/twitter.png" >
+                </a>
+            </div>
         </div>
-        <div class="section fondoF">
-            <h4><span>Follow me</span></h4>
-            <a href="https://twitter.com/sololearn?lang=es" target="blank">SoloLearn Twitter</a>
-        </div>
+        
 
-        <p>Esto es una prueba para GIT</p>
-        </br>
         <!--Footer-->
+<<<<<<< HEAD
         <footer style="background: black; color: white">
             <p class="quate" align="right">"Declare variables, not war"</p>
             <a class="btn btn-danger" href="inicio.html">Inicio</a>
+=======
+        <footer class="pie">
+            <p class="pie" align="right">"Declare variables, not war"</p>
+>>>>>>> v2
         </footer>
     </body>
 </hmtl>
 
 
 
- 

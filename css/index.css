@@ -58,7 +58,7 @@ div.imagen {
     border-radius: 15px 15px 15px 15px;
     border: solid 2px;
     padding: 40px;
-    background: linear-gradient(45deg, rgb(7, 7, 150), rgb(65, 211, 65));
+    background: linear-gradient(45deg, rgb(196,49,19), rgb(9,108,133));
     text-align: center;
 }
 p.parrafoSL {
@@ -71,20 +71,48 @@ a.linkSL {
     color: black;
 }
 
-/*estilo de letras de skills*/
-h2.monospace {
-    font-family: "Courier New", Courier, monospace;
-}
-
-h2.letras {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*estilo para las skills*/
+.habil {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 2px rgb(105,1,1);
+    padding: 20px 30px 20px 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     text-align: center;
 }
-p.letras2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/*centrar lista*/
+.habil ul {
+    text-align: left;
+    display: inline-block;
+}
+h2.letraH1 {
+    font-family: 'Oooh Baby', cursive;
+    font-size: 35px;
+}
+ul.lista1 {
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+/*estilo para los elementos de Mis Proyectos*/
+.project {
+    border-radius: 100px 0 100px 0;
+    border: solid 2px black;
+    padding: 30px 40px 30px 40px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h2.letrasPro {
+    font-family: 'La Belle Aurore', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+li.letrasList2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
 }
 a.calcu {
-    font-style: italic;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
     color: black;
 }
 /*diseño de boton*/
@@ -94,36 +122,154 @@ a.calcu {
     align-content:center;     
 }
 h3.bot {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 .diseño-b > button {
     cursor: pointer;
     font-size: 2rem;
-    border: 1px solid white;
+    border: 1px solid black;
     outline: none;
     background-color: rgba(255, 255, 255, .75);
 }
 .diseño-b > button:hover{
-    background-color: rgba(106, 24, 160, 0.9);
+    background-color: rgb(104,40,96);
 }
 
-ul.monospace {
-    font-family: "Courier New", Courier, monospace;
+/*estilo para tablas*/
+.cajaT {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px black;
+    padding: 30px 40px 30px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 h3.tabla1 {
-    text-align: center;
-    font-style: italic;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 45px;
 }
-
+/*selecciono la tabla de horarios*/
+table.cuadro {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #301934;
+}
+/*estilo para el encabezado*/
+thead th:nth-child(1) {
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+thead th:nth-child(2){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+thead th:nth-child(3){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+thead th:nth-child(4){
+    width: 40%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+thead th:nth-child(5){
+    width: 40%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+thead th:nth-child(6){
+    width: 30%;
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 15px;
+}
+/*-------------------------*/
+th {
+    letter-spacing: 5px;
+}
+td {
+    letter-spacing: 1px;
+}
+/*imagen para el encabezado*/
+thead {
+    background: url(estrellas.png);
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    height: 80px;
+}
+/*texto del body*/
+tbody td.selected {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    height: 30px;
+}
+/*borde del encabezado*/
+thead th {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    border: 3px solid #5b3163;
+}
+/*color de fondo del body*/
+/*odd para celdas impar*/
+tbody tr.cuerpo:nth-child(odd) {
+    background-color: #B284BE;
+}
+/*even para celdas par*/
+tbody tr.cuerpo1:nth-child(even) {
+    background-color: #9770a1;
+}
+/*estilo para formulario*/
+.formulario {
+    border-radius: 10px 10px 10px 10px;
+    border: solid 1px black;
+    padding: 30px 40px 30px 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 450px;
+    width: 300px;
+    text-align: center;
+}
+table.formT {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #301934;
+}
+h4.textoC {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 30px;
+}
+tr.fondoTr {
+    background-color: rgb(90, 133, 71);
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    border: solid 2px;
+}
+.cajaI {
+    border: solid 1px;
+}
+/*div al lado del otro*/
+.dosDiv {
+    width: 200px;
+    width: 200px;
+    height: 150px;
+    border: solid 1px;
+    color: black;
+    display: flex;
+    align-items: flex-end;
+}
 
 .fondoM {
-    width: 150px;
+    margin: 10px;
+    width: 80px;
     color: black;
-    background-color:rgb(42, 110, 173);
 }
 .fondoF {
-    width: 150px;
+    margin: 10px;
+    width: 80px;
     color:black;
-    background-color:rgb(56, 95, 167)
 }
